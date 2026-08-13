@@ -21,7 +21,6 @@
 - [🛠️ Key Features & Engineering Highlights](#️-key-features--engineering-highlights)
 - [⚙️ ML Pipeline Architecture](#️-ml-pipeline-architecture)
 - [📊 Dataset Information](#-dataset-information)
-- [📈 Results & Performance](#-results--performance)
 - [🚀 How to Run Locally](#-how-to-run-locally)
 - [📂 Project Structure](#-project-structure)
 
