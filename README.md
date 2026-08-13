@@ -56,7 +56,7 @@ This project implements a clean, production-grade Machine Learning pipeline buil
                                                     └── 🏷️ Categorical Pipeline (Imputer + OneHot)
 ```
 ## 📊 Dataset Information 
-```text
+
 - Dataset Source: Kaggle - Online Shoppers Purchasing Intention Dataset
 - Instances: 12,330 online browsing sessions
 - Target Feature: Revenue (Binary: 1 = Purchased, 0 = Did Not Purchase)
@@ -64,13 +64,13 @@ Feature Category,Description,Key Features
 Page Metrics,Page visits & duration,"Administrative_Duration, ProductRelated_PageValues"
 Google Analytics,Session behavior metrics,"BounceRates, ExitRates, PageValues"
 User Environment,Visitor profile & session info,"OperatingSystems, Browser, VisitorType, Weekend, Month"
-```
+
 ## 📈 Results & Performance
-```text
+
 Metric,Score / Status,Impact
 Test Set Accuracy,~88%,High precision in capturing purchasing intent
 Overfitting Control,< 2% Gap,Excellent generalization capacity on unseen evaluation data
-```
+
 🚀 How to Run Locally
 
 1. Clone this repository:
@@ -82,6 +82,11 @@ cd Online-Shoppers-Purchasing-Intention-Predictor
 ```bash
 pip install pandas numpy scikit-learn jupyter
 ```
+3.Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
 Open Online-Shoppers-Purchasing-Intention-Predictor.ipynb and run all cells.
 
 ## 📂 Project Structure
