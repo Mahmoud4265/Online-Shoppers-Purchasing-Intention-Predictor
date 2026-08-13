@@ -36,13 +36,15 @@ This project implements a clean, production-grade Machine Learning pipeline buil
 Raw Data ➔ Train/Test Split ➔ ColumnTransformer ➔ DecisionTree Model ➔ Evaluation
                                ├── Numerical Pipeline (Imputer + Scaler)
                                └── Categorical Pipeline (Imputer + OneHotEncoder)
+```
 📈 Results & Performance
 Test Set Accuracy: ~88%
 
 Overfitting Control: Minimal gap (< 2%) between training and test metrics, confirming strong generalization capacity.
-```
+
 
 🚀 How to Run Locally
+
 1.Clone this repository:
 
 ```Bash
